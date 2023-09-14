@@ -2,7 +2,7 @@
   "packages": ["packages/*"],
   "npmClient": "yarn",
   "useNx": false,
-  "version": "1.0.5",
+  "version": "0.0.1",
   "ignoreChanges": [
     "**/node_modules/**",
     "**/package.json",
