@@ -1,0 +1,39 @@
+{
+  "name": "@kreds/server",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "lint": "eslint src"
+  },
+  "author": "Mat Sz <contact@matsz.dev>",
+  "license": "BSD-3-Clause-Clear",
+  "private": false,
+  "devDependencies": {
+    "@kreds/types": "^0.0.1"
+  },
+  "peerDependencies": {
+    "@kreds/types": "^0.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kreds/core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kreds/core/issues"
+  },
+  "homepage": "https://github.com/kreds/core"
+}
